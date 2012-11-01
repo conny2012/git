@@ -1,0 +1,1 @@
+insert into doc values (1, "Hallo", "Welt");
