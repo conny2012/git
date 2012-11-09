@@ -1,0 +1,53 @@
+body{
+	background-color: #F7F7F7;
+}
+
+#header { height: 53px;
+		background-color: #fff;
+		border-bottom: 2px solid #00C;
+		}
+		
+		
+#container{	margin-left:160px; //Warum funktioniert das nicht ??	
+			margin-right:auto;
+			width: 1000 px;
+           }
+
+.klein {width: 330px;
+		height: 290px;
+		border: 1px solid #ccc;
+		background-color: #fff;
+		float: left;
+		margin:5px 5px 0px 0px;
+		}
+		
+.gross {width: 666px;
+		height: 290px;
+		border: 1px solid #ccc;
+		background-color: #fff;
+		float: left;
+		margin:5px 5px 0px 0px;
+		}
+		
+.divHeader { height: 22px;
+			width: 100%;
+			color: #fff;
+			font-family:Arial, Helvetica, sans-serif;
+			background-image: url(../images/divHeader.png);
+			background-repeat: repeat-x;
+			text-align:left;
+			} 
+
+.divBody {
+  alignment-adjust:middle;
+	     }
+		 
+.apDiv {
+	position: absolute;
+	left: 205px;
+	top: 126px;
+	width: 260px;
+	height: 207px;
+	z-index: 1;
+}
+
